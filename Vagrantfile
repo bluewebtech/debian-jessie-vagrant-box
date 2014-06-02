@@ -14,7 +14,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # The url from where the 'config.vm.box' box will be fetched if it 
   # doesn't already exist on the user's system.
-  config.vm.box_url = "https://www.dropbox.com/s/co1t7apq03jb1la/debian-jessie-vagrant-box.box"
+  config.vm.box_url = "http://files.bluewebtech.com/vagrant-boxes/debian-jessie-vagrant-box.box"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
